@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body class="bg-cover bg-center h-screen " style="background-image: url(bgimage.jpg)">
+    <div class="msg-container hidden h-[30vmin] content-center justify-center align-center flex flex-col mt-3 ">
+        <h1 class=" msg text-center text-green-300 text-4xl">Winner</h1>
+        <button class=" new-btn text-center  m-auto bg-gray-400 w-[100px] mt-2 rounded-2xl font-bold mt-2">NEW GAME</button>
+    </div>
+    <main >
+        <div class="container  justify-center align-center   ">
+            <h1 class=" text-center text-3xl  m-auto bg-gray-400 w-[200px] mt-2 rounded-2xl font-bold">Tic Tac Toe</h1>
+            <div class="game h-[60vmin] w-[60vmin]  flex gap-[1.5vmin] m-auto flex-wrap justify-center mt-3 ">
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 mt-2  text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 mt-2 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 mt-2 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400 mb-2 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin] rounded-2xl bg-yellow-400  mb-2 text-red-800 text-4xl"></button>
+                <button class="btn h-[18vmin] w-[18vmin]  rounded-2xl bg-yellow-400  mb-2 text-red-800 text-4xl"></button>
+            </div>
+        </div>
+        <div class="content-center justify-center align-center justify-items-center flex-col flex ">
+            <button class=" reset-btn text-center  m-auto bg-gray-400 w-[100px] mt-2 rounded-2xl font-bold">Reset Game</button>
+        </div>
+        
+        
+    </main> 
+</body>
+<script src="tto.js"></script>
+</html>
